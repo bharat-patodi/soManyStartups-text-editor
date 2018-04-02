@@ -1,0 +1,12 @@
+{
+  "name": "helloTextEditor_Website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jsFile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "BePee",
+  "license": "ISC"
+}

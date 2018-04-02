@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Text Editor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav>
+    <button id="saveBtn" onclick="save()">Save</button>
+    <button id="headingBtn" onclick="editingStuff('heading', 'H1')">H1</button>
+    <button id="boldBtn" onclick="editingStuff('bold', null)">Bold</button>
+    <button id="italicsBtn" onclick="editingStuff('italic', null)">Italics</button>
+    <button id="strikethroughBtn" onclick="editingStuff('strikeThrough', null)">Strikethrough</button>
+    <button id="subscriptBtn" onclick="editingStuff('subscript', null)">Subscript</button>
+    <button id="superscriptBtn" onclick="editingStuff('superscript', null)">Superscript</button>
+    <button id="underlineBtn" onclick="editingStuff('underline', null)">Underline</button>
+    <button id="highlightBtn" onclick="editingStuff('backColor', '#ffc600')">Highlight</button>
+    <button id="createLinkBtn" onclick="editingStuff('createLink', null)">Link</button>
+    <button id="removeLinkBtn" onclick="editingStuff('unlink', null)">Unlink</button>
+    <button id="indentBtn" onclick="editingStuff('indent', null)">Indent</button>
+    <button id="outdentBtn" onclick="editingStuff('outdent', null)">Outdent</button>
+    <button id="horizontalRuleBtn" onclick="editingStuff('insertHorizontalRule', null)">HR</button>
+    <button id="undoBtn" onclick="editingStuff('undo', null)">Undo</button>
+    <button id="orderedListBtn" onclick="editingStuff('insertOrderedList', null)">OL</button>
+    <button id="unorderedListBtn" onclick="editingStuff('InsertUnorderedList', null)">UL</button>
+    <button id="insertImageBtn" onclick="editingStuff('insertImage', null)">Img</button>
+  </nav>
+
+  <!-- <textarea id="mainTextArea" name="name" rows="8" cols="80" autocapitalize="sentences" autocomplete="on"></textarea> -->
+  <div id="writer">This is editable.</div>
+  <script src="jsFile.js"></script>
+</body>
+
+</html>
